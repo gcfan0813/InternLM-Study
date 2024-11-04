@@ -70,6 +70,85 @@ SSH 是（C/S架构）由**服务器**和**客户端**组成，为建立安全�
 
    
 
+## 3.进行端口映射并运行`hello_world.py
+
+1.在开发机界面，点击`自定义服务`
+
+<img src="./assets/image-20241104214249921.png" alt="image-20241104214249921" style="zoom:50%;" />
+
+2.复制第一条命令
+
+<img src="./assets/image-20241104214432336.png" alt="image-20241104214432336" style="zoom:50%;" />
+
+3.修改`{本地机器_PORT}`与`{开发机_PORT}`，在powershell中粘贴并运行
+
+```powershell
+ssh -p 36072 root@ssh.intern-ai.org.cn -CNg -L 7860:127.0.0.1:7860 -o StrictHostKeyChecking=no
+```
+
+<img src="./assets/image-20241104214815208.png" alt="image-20241104214815208" style="zoom:50%;" />
+
+4.开发机中新建`hello_world.py`，并填入代码
+
+```python
+import socket
+import re
+import gradio as gr
+ 
+# 获取主机名
+def get_hostname():
+    hostname = socket.gethostname()
+    match = re.search(r'-(\d+)$', hostname)
+    name = match.group(1)
+    
+    return name
+ 
+# 创建 Gradio 界面
+with gr.Blocks(gr.themes.Soft()) as demo:
+    html_code = f"""
+            <p align="center">
+            <a href="https://intern-ai.org.cn/home">
+                <img src="https://intern-ai.org.cn/assets/headerLogo-4ea34f23.svg" alt="Logo" width="20%" style="border-radius: 5px;">
+            </a>
+            </p>
+            <h1 style="text-align: center;">☁️ Welcome {get_hostname()} user, welcome to the ShuSheng LLM Practical Camp Course!</h1>
+            <h2 style="text-align: center;">😀 Let’s go on a journey through ShuSheng Island together.</h2>
+            <p align="center">
+                <a href="https://github.com/InternLM/Tutorial/blob/camp3">
+                    <img src="https://oss.lingkongstudy.com.cn/blog/202410081252022.png" alt="Logo" width="50%" style="border-radius: 5px;">
+                </a>
+            </p>
+
+            """
+    gr.Markdown(html_code)
+
+demo.launch()
+```
+
+5.安装`gradio`依赖
+
+```bash
+pip install gradio==4.29.0
+```
+
+<img src="./assets/image-20241104220833411.png" alt="image-20241104220833411" style="zoom:50%;" />
+
+<img src="./assets/image-20241104220914698.png" alt="image-20241104220914698" style="zoom:50%;" />
+
+6.运行`hello_world.py`
+
+```bash
+python ./hello_world.py
+```
+
+<img src="./assets/image-20241104221145212.png" alt="image-20241104221145212" style="zoom:50%;" />
+
+7.本地浏览器访问`http://127.0.0.1:7860`或`http://localhost:7860`
+
+<img src="./assets/image-20241104221513675.png" alt="image-20241104221513675" style="zoom:50%;" />
+
+
+
 # 二、将Linux基础命令在开发机上完成一遍
 
 ## 1.文件管理命令
