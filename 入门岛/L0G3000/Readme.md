@@ -1,10 +1,10 @@
 # 一、破冰活动：自我介绍
 
-## 1.将https://github.com/InternLM/Tutorial/tree/camp4项目fork到自己账号下
+## 1.将[InternLM/Tutorial](https://github.com/InternLM/Tutorial)项目fork到自己账号下
 
 <img src="./assets/image-20241105221601734.png" alt="image-20241105221601734" style="zoom:50%;" />
 
-取消`Copy the camp4 branch only`复选框
+**取消`Copy the camp4 branch only`复选框**
 
 <img src="./assets/image-20241105222207681.png" alt="image-20241105222207681" style="zoom:50%;" />
 
