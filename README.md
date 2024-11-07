@@ -20,10 +20,10 @@
 
 |         | 关卡名称                 | 闯关完成 | 作业地址                                                     |
 | :------ | :----------------------- | :------- | ------------------------------------------------------------ |
-| 第 1 关 | Linux 前置基础           | 已完成   | [L0G1000](https://github.com/gcfan0813/InternLM-Study/tree/main/%E5%85%A5%E9%97%A8%E5%B2%9B/L0G1000) |
-| 第 2 关 | Python 前置基础          | 已完成   | [L0G2000](https://github.com/gcfan0813/InternLM-Study/tree/main/%E5%85%A5%E9%97%A8%E5%B2%9B/L0G2000) |
-| 第 3 关 | Git 前置基础             | 已完成   | [L0G3000](https://github.com/gcfan0813/InternLM-Study/tree/main/%E5%85%A5%E9%97%A8%E5%B2%9B/L0G3000) |
-| 第 4 关 | 玩转「HF/魔搭/魔乐」平台 | 已完成   | [L0G4000](https://github.com/gcfan0813/InternLM-Study/tree/main/%E5%85%A5%E9%97%A8%E5%B2%9B/L0G4000) |
+| 第 1 关 | Linux 前置基础           | 已完成   | [L0G1000](https://github.com/gcfan0813/InternLM-Study/tree/main/L0-%E5%85%A5%E9%97%A8%E5%B2%9B/L0G1000) |
+| 第 2 关 | Python 前置基础          | 已完成   | [L0G2000](https://github.com/gcfan0813/InternLM-Study/tree/main/L0-%E5%85%A5%E9%97%A8%E5%B2%9B/L0G2000) |
+| 第 3 关 | Git 前置基础             | 已完成   | [L0G3000](https://github.com/gcfan0813/InternLM-Study/tree/main/L0-%E5%85%A5%E9%97%A8%E5%B2%9B/L0G3000) |
+| 第 4 关 | 玩转「HF/魔搭/魔乐」平台 | 已完成   | [L0G4000](https://github.com/gcfan0813/InternLM-Study/tree/main/L0-%E5%85%A5%E9%97%A8%E5%B2%9B/L0G4000) |
 
 ### 1.2. 基础关卡
 
