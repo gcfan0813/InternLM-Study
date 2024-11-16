@@ -527,12 +527,6 @@ git push
 
 ![image-20241112000451974](./assets/image-20241112000451974.png)
 
-## 11.Hugging Face Space地址
-
-[LlamaIndex_4147](https://huggingface.co/spaces/gcfan/LlamaIndex_4147)
-
-
-
 
 
 **The End.**
