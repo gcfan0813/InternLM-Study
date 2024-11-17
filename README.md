@@ -38,7 +38,7 @@
 | 第 2 关 | 玩转书生「多模态对话」和「AI搜索」产品 | 已完成   | [L1G2000](https://github.com/gcfan0813/InternLM-Study/tree/main/L1-%E5%9F%BA%E7%A1%80%E5%B2%9B/L1G2000) |
 | 第 3 关 | 浦语提示词工程实践                     | 已完成   | [L1G3000](https://github.com/gcfan0813/InternLM-Study/tree/main/L1-%E5%9F%BA%E7%A1%80%E5%B2%9B/L1G3000) |
 | 第 4 关 | InternLM + LlamaIndex RAG 实践         | 已完成   | [L1G4000](https://github.com/gcfan0813/InternLM-Study/tree/main/L1-%E5%9F%BA%E7%A1%80%E5%B2%9B/L1G4000) |
-| 第 6 关 | XTuner 微调个人小助手认知              | 未完成   |                                                              |
+| 第 6 关 | XTuner 微调个人小助手认知              | 已完成   | [L1G5000](https://github.com/gcfan0813/InternLM-Study/tree/main/L1-%E5%9F%BA%E7%A1%80%E5%B2%9B/L1G5000) |
 | 第 7 关 | OpenCompass 评测书生大模型实践         | 未完成   |                                                              |
 
 
