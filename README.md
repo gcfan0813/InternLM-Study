@@ -47,7 +47,7 @@
 
 |         | 关卡名称                        | 闯关完成 | 作业地址                                                     |
 | :------ | :------------------------------ | :------- | ------------------------------------------------------------ |
-| 第 1 关 | 探索书生大模型能力边界          | 未完成   |                                                              |
+| 第 1 关 | 探索书生大模型能力边界          | 已完成   | [L2G1000](https://github.com/gcfan0813/InternLM-Study/tree/main/L2-%E8%BF%9B%E9%98%B6%E5%B2%9B/L2G1000) |
 | 第 2 关 | Lagent 自定义你的 Agent 智能体  | 已完成   | [L2G2000](https://github.com/gcfan0813/InternLM-Study/tree/main/L2-%E8%BF%9B%E9%98%B6%E5%B2%9B/L2G2000) |
 | 第 3 关 | LMDeploy 量化部署进阶实践       | 已完成   | [L2G3000](https://github.com/gcfan0813/InternLM-Study/tree/main/L2-%E8%BF%9B%E9%98%B6%E5%B2%9B/L2G3000) |
 | 第 4 关 | InternVL 多模态模型部署微调实践 | 已完成   | [L2G4000](https://github.com/gcfan0813/InternLM-Study/tree/main/L2-%E8%BF%9B%E9%98%B6%E5%B2%9B/L2G4000) |
