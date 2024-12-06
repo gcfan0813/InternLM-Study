@@ -52,7 +52,7 @@
 | 第 3 关 | LMDeploy 量化部署进阶实践       | 已完成   | [L2G3000](https://github.com/gcfan0813/InternLM-Study/tree/main/L2-%E8%BF%9B%E9%98%B6%E5%B2%9B/L2G3000) |
 | 第 4 关 | InternVL 多模态模型部署微调实践 | 已完成   | [L2G4000](https://github.com/gcfan0813/InternLM-Study/tree/main/L2-%E8%BF%9B%E9%98%B6%E5%B2%9B/L2G4000) |
 | 第 5 关 | 茴香豆：企业级知识库问答工具    | 未完成   |                                                              |
-| 第 6 关 | MindSearch深度解析及实践        | 未完成   |                                                              |
+| 第 6 关 | MindSearch深度解析及实践        | 已完成   | [L2G6000](https://github.com/gcfan0813/InternLM-Study/tree/main/L2-%E8%BF%9B%E9%98%B6%E5%B2%9B/L2G6000) |
 
 ### 1.4. 彩蛋岛
 
